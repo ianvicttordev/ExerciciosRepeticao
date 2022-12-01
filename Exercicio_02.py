@@ -1,7 +1,9 @@
 # 2 - Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, 
 # mostrando uma mensagem de erro e voltando a pedir as informações.
 
-print ("faça já seu cadastro:")
+print('############### CADASTRO PESSOAL ###############')
+
+print ("Faça o seu cadastro: ")
 usuario = str(input("usuário--> "))
 senha = str(input("senha--> "))
 while usuario==senha:
@@ -9,4 +11,4 @@ while usuario==senha:
 	usuario = str(input("usuário--> "))
 	senha = str(input("senha--> "))
 else:
-	print("cadastrado efetuado com sucesso")
+	print("Cadastrado efetuado com sucesso")

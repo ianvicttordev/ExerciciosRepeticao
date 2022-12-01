@@ -13,4 +13,4 @@ while a <= b:
 	b += b * 0.015
 	ano += 1
 
-print ("A ultrapassa ou igual a a B em %d anos" %ano)
+print('Quantidade de anos para ultrapassar é: ', ano)
